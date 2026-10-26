@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SafeDriveVLA has moved</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // Deep links under /SafeDriveVLA/ keep their path on the new host.
+    var p = location.pathname;
+    if (/^\/SafeDriveVLA(\/|$)/i.test(p)) {
+      location.replace("https://asguard-uci.github.io" + p.replace(/^\/SafeDriveVLA/i, "/SafeDriveVLA") + location.search + location.hash);
+    } else {
+      location.replace("https://asguard-uci.github.io/SafeDriveVLA/");
+    }
+  </script>
+</head>
+<body>
+  <p>The SafeDriveVLA project page has moved to
+    <a href="https://asguard-uci.github.io/SafeDriveVLA/">https://asguard-uci.github.io/SafeDriveVLA/</a>.</p>
+</body>
+</html>
